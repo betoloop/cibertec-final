@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cibertec-final';
+  title: string = 'Cibertec Proyecto Final - Alberto Arturo Machado Hidalgo';
+  year: number = (new Date()).getFullYear();
+
+  // ngOnInit(){
+  //   setTimeout(() => {
+  //     this.title = 'Angular App++';
+  //   }, 1500);
+  // }
 }

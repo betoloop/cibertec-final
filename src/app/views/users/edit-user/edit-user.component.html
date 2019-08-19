@@ -1,0 +1,9 @@
+<div class="alert alert-dark" role="alert">
+    <h5>Editar usuario</h5>
+</div>
+<app-user-form
+    *ngIf="user"
+    type="edit"
+    [model]="user"
+    (handleSubmit)="onSubmit($event)"
+></app-user-form>

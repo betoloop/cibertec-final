@@ -1,12 +1,22 @@
 {
-    "users": [
-        {
-            "name": "Manuel",
-            "lastname": "Del Pozo",
-            "email": "madepozo@gmail.com",
-            "edad": 28,
-            "role": "Web UI Developer",
-            "phone": 997868546
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Manuel",
+      "lastname": "Del Pozo",
+      "email": "madepozo@gmail.com",
+      "edad": 28,
+      "role": "Web UI Developer",
+      "phone": 997868546
+    },
+    {
+      "name": "Alberto Arturo",
+      "lastname": "Machado Hidalgo",
+      "email": "amachadohidalgo@gmail.com",
+      "edad": 30,
+      "role": "Analista Desarrollador de Tecnologías de Información",
+      "phone": 971164570,
+      "id": 2
+    }
+  ]
 }
